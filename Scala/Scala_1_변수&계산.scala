@@ -1,7 +1,7 @@
 // # Scala 기초 문법 공부_1
 
 // Hello, world!
-object LearnScala {
+object LearnScala_Hello {
     def main(args: Array[String]): Unit = {
         println("Hello, world!")
     }
@@ -12,7 +12,7 @@ object를 통해 객체 생성, def를 통해 함수 생성
 */
 
 // 변수 & 계산
-object LearnScala {
+object LearnScala_Calculation {
     def main(args: Array[String]): Unit = {
         println( 1 + 2 )
         println( (1).+(3) )
@@ -27,7 +27,7 @@ ex) 1+2 는 1이라는 객체에 "+"라는 메소드를 호출해 2라는 인자
 
 
 // 변수 & 상수
-object LearnScala {
+object LearnScala_var_val {
     def main(args: Array[String]): Unit = {
         var x = 1 + 2
         x = 3 * 4
@@ -51,7 +51,7 @@ object LearnScala {
 
 
 // 변수 출력
-object LearnScala {
+object LearnScala_print {
     def main(args: Array[String]): Unit = {
         var x = 10
         var y = 1

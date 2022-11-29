@@ -1,7 +1,7 @@
 // # Scala 기초 문법 공부_2
 
 // Range & List
-object LearnScala {
+object LearnScala_Range_List {
     def main(args: Array[String]): Unit = {
         // ① to를 이용하면 1부터 10을 포함하는 Range를 생성
         val range1 = 1 to 10
@@ -33,7 +33,7 @@ to, until, by 라는 편리한 기능을 제공해주고, range의 filter와 map
 
 
 // 숫자 다루기
-object LearnScala {
+object LearnScala_num {
     def main(args: Array[String]): Unit = {
         val num = -5  
         val numAbs = num.abs // 절대값
@@ -52,7 +52,7 @@ max(숫자), min(숫자) 기능은 활용해봐야겠음
 
 
 // 문자열 다루기
-object LearnScala {
+object LearnScala_String {
     def main(args: Array[String]): Unit = {
         // ① 뒤집기
         val reverse = "Scala".reverse 

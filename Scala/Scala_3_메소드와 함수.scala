@@ -1,7 +1,7 @@
 // # Scala 기초 문법 공부_3
 
 // 메소드 정의
-object LearnScala {
+object LearnScala_def {
     // ① 일반적인 메소드
     def add(x:Int, y:Int):Int = {
         return x + y        
@@ -28,7 +28,7 @@ object LearnScala {
 
 
 // 익명함수 1
-object LearnScala {
+object LearnScala_def_1 {
     
     // 매개변수로 받은 익명함수에 1과 2를 넣어서 실행하는 메소드
     def doWithOneAndTwo(f: (Int, Int) => Int) = {  
@@ -56,7 +56,7 @@ object LearnScala {
 
 
 // 익명함수 2
-object LearnScala {    
+object LearnScala_def_2 {    
     // ① 메소드를 정의하는 방식
     def add1(x:Int, y:Int) = x + y 
     

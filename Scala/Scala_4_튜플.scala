@@ -1,7 +1,7 @@
 // # Scala 기초 문법 공부_4 튜플
 
 // 튜플
-object LearnScala {
+object LearnScala_Tuple {
     def main(args: Array[String]): Unit = {
         val t1 = new Tuple3(1, "hello", true)
         val t2 = (1, "hello", true)
@@ -23,7 +23,7 @@ val t2은 t1과 동일하지만 더 간결한 형태
 
 
 // 여러개의 값 리턴
-object LearnScala {
+object LearnScala_Tuple_Return {
     def swap(x:String, y:String) = (y, x)  
     
     def main(args: Array[String]): Unit = {
@@ -37,7 +37,7 @@ object LearnScala {
 
 
 // 변수에 값 넣기
-object LearnScala {
+object LearnScala_Insert_to_var {
     def main(args: Array[String]): Unit = {
         
         var (x, y, z, c, python, java) = (1, 2, 3, true, false, "no!")  
