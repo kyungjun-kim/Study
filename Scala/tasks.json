@@ -1,0 +1,10 @@
+{
+    "version" : "3.2.1",
+    "tasks" : [
+        {
+            "label" : "scalaProjectJVM"
+            "type" : "shell"
+            "command" : "sbt \"project scalaProjectJVM\" \"run\""
+        }
+    ]
+}

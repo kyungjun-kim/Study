@@ -1,7 +1,7 @@
 // # Scala 기초 문법 공부_5 제어문
 
 // 반복문
-object LearnScala {
+object LearnScala_loop {
     def main(args: Array[String]): Unit = {
         // ① while문
         var i, sum = 0  
@@ -30,7 +30,7 @@ sum = (0 until 10).sum 같은 방식을 통해 for이나 while 없이 쉽게 반
 
 
 // 중첩된 for문
-object LearnScala {
+object LearnScala_for {
     def main(args: Array[String]): Unit = {
         for( a<- 1 to 3){
             for( b <- 10 to 12){
@@ -50,7 +50,7 @@ object LearnScala {
 
 
 // if문
-object LearnScala {
+object LearnScala_if {
     def main(args: Array[String]): Unit = {
         if (true)   
             println("한 줄은 {괄호}를 생략할 수 있습니다.")  
