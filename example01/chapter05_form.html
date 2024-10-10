@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>폼 태그 실습</title>
+    </head>
+
+    <body>
+        <form action="chapter05_form_result.html" method="get">
+            <label for="username">
+                아이디
+                <input id="username" name="id" type="text"  placeholder="아이디를 입력하세요">
+                <!-- 고정값 = readonly -->
+                 
+                <br>
+            </label>
+
+            <label>
+                비밀번호
+                <input name="password" type="password">
+            </label>
+ 
+            <br><br><br>
+           
+            <label for="option">옵션 선택</label>
+            <select name="opt" required>
+            <option>선택하세요1</option>
+            <option value="옵션2-값">옵션2</option>
+            <option value="옵션3-값">옵션3</option>
+            <option>옵션4</option>
+            <option>옵션5</option>
+            
+           </select>
+           
+           <input type="checkbox" value="true" name="checkbox" required>
+           <br><br><br>
+           <label id="agree">약관에 동의합니다</label>
+           <br><br><br>
+
+           <input type="radio" name="number" value="1" required>1
+           <input type="radio" name="number" value="2" required>2
+           <input type="radio" name="number" value="3" required>3
+           <input type="radio" name="number" value="4" required>4
+           <br><br><br>
+
+           <input type="file">
+           <br><br><br>
+
+           <input type="button" value="나는 버튼">
+           <br><br><br>
+
+           <input type="hidden" name="hiddentype" value="wow">
+           <br><br><br>
+
+           <textarea name="" id="" cols="50" rows="10" >안녕하세요.</textarea>
+
+           <button type="submit">전송!</button>
+        </form>
+    </body>
+</html>
