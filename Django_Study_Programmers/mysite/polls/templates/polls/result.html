@@ -1,0 +1,9 @@
+<h1>{{question.question_text}}</h1><br>
+{% for choice in question.choice.set.all %}
+
+    <label>
+        {{choice.choice_text}} -- {{choice.votes}}
+    </label>
+    <br>
+{% endfor %}
+
